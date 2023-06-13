@@ -1,0 +1,58 @@
+[   
+    {
+        "title": "JavaScript",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+        "title": "React",
+        "href": "https://reactjs.org/"
+    },
+    {
+        "title": "NextJS",
+        "href": "https://nextjs.org/"
+    },
+    {
+        "title": "NodeJS",
+        "href": "https://nodejs.org/en/"
+    },
+    {
+        "title": "Express",
+        "href": "https://expressjs.com/"
+    },
+    {
+        "title": "MongoDB",
+        "href": "https://www.mongodb.com/"
+    },
+    {
+        "title": "CSS",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+        "title": "Tailwind",
+        "href": "https://tailwindcss.com/"
+    },
+    {
+        "title" : "Bootstrap",
+        "href" : "https://getbootstrap.com/"
+    },
+    {
+        "title": "Postman",
+        "href": "https://www.postman.com/"
+    },
+    {
+        "title": "Git",
+        "href": "https://git-scm.com/"
+    },
+    {
+        "title": "GitHub",
+        "href": "https://github.com/"
+    },
+    {
+        "title":"Python",
+        "href":"https://www.python.org/"
+    },
+    {
+        "title":"Neo4j",
+        "href":"https://neo4j.com/"
+    }
+]

@@ -17,15 +17,15 @@ export default function Header() {
                 </Link>
             </div>
             <nav>
-                <ul className="flex gap-6 font-bold mx-28">
-                    <li>
-                        <a href='#'>About</a>
+                <ul className="flex gap-8 font-bold text-xl mx-28">
+                    <li className="hover:opacity-50 transition duration-300 ease-in-out">
+                        <Link href='#about'>About</Link>
                     </li>
-                    <li>
-                        <a href='#'>Work</a>
+                    <li className="hover:opacity-50 transition duration-300 ease-in-out">
+                        <Link href='#work'>Work</Link>
                     </li>
-                    <li>
-                        <a href='#'>Contact</a>
+                    <li className="hover:opacity-50 transition duration-300 ease-in-out">
+                        <Link href='#'>Contact</Link>
                     </li>
                 </ul>
             </nav>

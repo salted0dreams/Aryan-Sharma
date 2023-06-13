@@ -2,12 +2,12 @@ import SectionHeader from "./sectionHeader";
 
 export default function Work() {
     return(
-        <section className='text-zinc-200'>
-            <div className='max-w-4xl mx-56 py-12'>
-                <SectionHeader title={"Projects"} />
-                <div className='flex flex-col md:flex-row gap-12'>
+        <section className=' text-white  flex justify-center mx-36  bg-transparent' id="about">
+            <div className='py-12 w-full px-3 flex flex-col justify-center items-center'>
+                <SectionHeader title={"My Work"} />
+                <div className=''>
                     
-                    </div>
+                </div>
             </div>
         </section>
     )
