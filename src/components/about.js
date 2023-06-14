@@ -20,7 +20,7 @@ export default function About() {
                 <nav className="py-5">  
                 <ul className="flex gap-40">
                     <li>
-                        <a href='#'>
+                        <a href='https://www.instagram.com/aint_no_aryan/' target="_blank">
                             <img
                                 src="../../pngs/instagram.png"
                                 width='50'
@@ -30,7 +30,7 @@ export default function About() {
                         </a>
                     </li>
                     <li>
-                        <a href='#'>
+                        <a href='https://twitter.com/Aryan48648373' target="_blank">
                         <img
                                 src="../../pngs/twitter.png"
                                 width='50'
@@ -40,7 +40,7 @@ export default function About() {
                         </a>
                     </li>
                     <li>
-                        <a href='#'>
+                        <a href='https://www.linkedin.com/in/aryan-sharma-3035b7226/' target="_blank">
                         <img
                                 src="../../pngs/linkedin.png"
                                 width='50'
@@ -50,7 +50,7 @@ export default function About() {
                         </a>
                     </li>
                     <li>
-                        <a href='#'>
+                        <a href='https://github.com/salted0dreams' target="_blank">
                         <img
                                 src="../../pngs/github.png"
                                 width='50'

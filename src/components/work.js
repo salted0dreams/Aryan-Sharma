@@ -4,7 +4,7 @@ import ProjectCard from "./projectCard";
 
 export default function Work() {
     return (
-        <section className=' text-white  flex justify-center mx-36  bg-transparent' id="about">
+        <section className=' text-white  flex justify-center mx-36  bg-transparent' id="work">
             <div className='py-12 w-full h-full px-auto flex flex-col justify-center items-center'>
                 <SectionHeader title={"My work"} />
                 <div className='w-11/12'>

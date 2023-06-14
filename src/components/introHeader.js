@@ -14,7 +14,8 @@ export default function IntroHeader() {
                 <img src="../../pngs/pfp.jpg" 
                     alt="Image of Aryan"
                     className="rounded-full p-5 bg-neutral-800"
-                    width={550}/>
+                    width={550}
+                    loading="lazy"/>
             </div>
 
         </header>

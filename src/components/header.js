@@ -25,7 +25,7 @@ export default function Header() {
                         <Link href='#services'>Services</Link>
                     </li>
                     <li className="hover:opacity-50 transition duration-300 ease-in-out">
-                        <Link href='#contact'>Contact</Link>
+                        <Link href='#work'>Work</Link>
                     </li>
                 </ul>
             </nav>
