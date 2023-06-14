@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Data-Dash",
+        "description": "A data visualization app built with React, Chart.js and Node.js.",
+        "github": "https://github.com/salted0dreams/Data-Dash"
+    },
+    {
+        "title": "DevCamper",
+        "description": "Backend of bootcamp directory app built with Node.js, Express, MongoDB, Mongoose, and other packages.",
+        "github": "https://github.com/salted0dreams/DevCamper"
+    },
+    {
+        "title": "Toods-CLI-version",
+        "description": "A CLI version of Tood's, a to-do list app built with Node.js, Express, MongoDB, Mongoose, and other packages.",
+        "github": "https://github.com/salted0dreams/Toods-CLI-version"
+    },
+    {
+        "title": "Hangman",
+        "description": "A version of the classic game Hangman built using React and Axios.",
+        "github": "https://github.com/salted0dreams/Hangman"
+    },
+    {
+        "title": "Cryptic",
+        "description": "A react site to help you fetch the current price of your desired crypto currency.",
+        "github": "https://github.com/salted0dreams/Cryptic"
+    }
+]

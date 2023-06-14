@@ -10,7 +10,7 @@ export default function About() {
     // console.log(data);
 
     return (
-        <section className=' text-white flex justify-center items-center mx-36  bg-transparent' id="about">
+        <section className=' text-white flex justify-center items-center h-screen mx-36  bg-transparent' id="about">
             <div className='py-12 w-full px-3 flex flex-col justify-center items-center'>
                 <SectionHeader title={"About"} />
                 <div className='w-2/3'>

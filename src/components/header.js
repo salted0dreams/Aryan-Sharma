@@ -22,10 +22,10 @@ export default function Header() {
                         <Link href='#about'>About</Link>
                     </li>
                     <li className="hover:opacity-50 transition duration-300 ease-in-out">
-                        <Link href='#work'>Work</Link>
+                        <Link href='#services'>Services</Link>
                     </li>
                     <li className="hover:opacity-50 transition duration-300 ease-in-out">
-                        <Link href='#'>Contact</Link>
+                        <Link href='#contact'>Contact</Link>
                     </li>
                 </ul>
             </nav>

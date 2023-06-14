@@ -3,6 +3,7 @@ import IntroHeader from '@/components/introHeader';
 import About from '@/components/about';
 import Work from '@/components/work';
 import TechStack from '@/components/techstack';
+import Contact from '@/components/contact';
 
 export default function Home() {
   return (
@@ -13,11 +14,10 @@ export default function Home() {
         <link rel="icon" href="" />
       </Head>
         <IntroHeader />
-      {/* <hr  className=" h-0.5 mx-auto my-2 bg-zinc-600 w-11/12 border-0 rounded " /> */}
       <About />
       <TechStack />
-      {/* <hr  className="h-0.5 mx-auto my-2 bg-zinc-600 w-11/12 border-0 rounded " /> */}
-      <Work />
+      {/* <Work /> */}
+      <Contact />
     </div>
   );
 }
