@@ -9,17 +9,18 @@ export default function TechStack() {
     const services = [
         {
             title: "Web Development",
-            img: "../../webDev.png",
+            img: "../../pngs/webDev.png",
         },
         {
             title: "Web Design",
-            img: "../../design.png",
+            img: "../../pngs/design.png",
         },
         {
             title: "Software Development",
-            img: "../../softwareDev.png",
+            img: "../../pngs/softwareDev.png",
         }
     ]
+    let count = 0;
     return (
         <section className=' text-white  flex flex-col justify-center mx-36  bg-transparent h-screen' id="services">
             <div className='py-10 w-full h-full px-auto flex flex-col justify-center items-center'>
@@ -44,7 +45,7 @@ export default function TechStack() {
                 <div className='w-11/12'>
                     <div className='grid grid-cols-6 gap-6'>
                         {data.map((tech) => (
-                            <TechCard title={tech.title} href={tech.href} />
+                            <TechCard title={tech.title} href={tech.href} mykey={tech.id} />
                         ))}
                     </div>
                 </div>

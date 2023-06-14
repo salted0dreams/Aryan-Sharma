@@ -7,7 +7,7 @@ export default function Header() {
             <div className="flex items-center mx-16">
                 <Link href='mailto:aryan182282@gmail.com' target="_blank" className="w-12 bg-zinc-800 mx-8 flex justify-center h-12 rounded-full">
                     <img
-                        src="../../mail.png"
+                        src="../../pngs/mail.png"
                         className="my-3"
                     >
                     </img>

@@ -22,7 +22,7 @@ export default function About() {
                     <li>
                         <a href='#'>
                             <img
-                                src="../../instagram.png"
+                                src="../../pngs/instagram.png"
                                 width='50'
                                 height='50'
                                 className="hover:opacity-50 transition duration-300 ease-in-out"
@@ -32,7 +32,7 @@ export default function About() {
                     <li>
                         <a href='#'>
                         <img
-                                src="../../twitter.png"
+                                src="../../pngs/twitter.png"
                                 width='50'
                                 height='50'
                                 className="hover:opacity-50 transition duration-300 ease-in-out"
@@ -42,7 +42,7 @@ export default function About() {
                     <li>
                         <a href='#'>
                         <img
-                                src="../../linkedin.png"
+                                src="../../pngs/linkedin.png"
                                 width='50'
                                 height='50'
                                 className="hover:opacity-50 transition duration-300 ease-in-out"
@@ -52,7 +52,7 @@ export default function About() {
                     <li>
                         <a href='#'>
                         <img
-                                src="../../github.png"
+                                src="../../pngs/github.png"
                                 width='50'
                                 height='50'
                                 className="hover:opacity-50 transition duration-300 ease-in-out"
