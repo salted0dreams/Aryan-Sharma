@@ -22,7 +22,7 @@ export default function TechStack() {
     ]
     let count = 0;
     return (
-        <section className=' text-white  flex flex-col justify-center mx-36  bg-transparent h-screen' id="services">
+        <section className=' text-white  flex flex-col justify-center mx-36   bg-transparent h-screen' id="services">
             <div className='py-10 w-full h-full px-auto flex flex-col justify-center items-center'>
                 <SectionHeader title={"What I Do"} />
                 <div className='w-11/12 flex flex-row justify-evenly'>
@@ -40,7 +40,7 @@ export default function TechStack() {
                     
                 </div>
             </div>
-            <div className='py-12 w-full h-full px-auto flex flex-col justify-center items-center'>
+            <div className='py-12  w-full h-full px-auto flex flex-col justify-center items-center'>
                 <SectionHeader title={"My Skills"} />
                 <div className='w-11/12'>
                     <div className='grid grid-cols-6 gap-6'>

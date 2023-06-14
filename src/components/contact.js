@@ -47,22 +47,22 @@ export default function Contact() {
             < form className="flex flex-col justify-center items-center h-auto w-screen ">
                 <div className="flex flex-row justify-evenly gap-16 w-1/2">
                     < formGroup className="h-auto my-5 text-xl w-1/2" >
-                        < input type='text' onChange={(e) => { setFirstName(e.target.value) }} name='firstname' placeholder="First Name" className="appearance-none bg-transparent border-b-2 w-full text-white mr-6 py-1 px-2 leading-tight focus:outline-none " />
+                        < input type='text' onChange={(e) => { setFirstName(e.target.value) }} name='firstname' placeholder="First Name" className="appearance-none bg-transparent border-b-2 w-full text-white mr-6 py-1 px-2 leading-tight focus:border-b-green-500 outline-none " />
                     </formGroup>
                     < formGroup className="h-auto my-5 text-xl w-1/2" >
-                        < input type='text' onChange={(e) => { setLastName(e.target.value) }} name='lastname' placeholder="Last Name" className="appearance-none bg-transparent border-b-2 w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none" />
+                        < input type='text' onChange={(e) => { setLastName(e.target.value) }} name='lastname' placeholder="Last Name" className="appearance-none bg-transparent border-b-2 w-full text-white mr-3 py-1 px-2 leading-tight focus:border-b-green-500 outline-none" />
                     </formGroup>
                 </div>
                 <div className="flex flex-row justify-center gap-20 w-1/2">
                     < formGroup className="h-auto text-xl my-5 w-1/2">
-                        < input type='email' onChange={(e) => { setEmail(e.target.value) }} name='email' placeholder="Email" className="appearance-none bg-transparent border-b-2 w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none" />
+                        < input type='email' onChange={(e) => { setEmail(e.target.value) }} name='email' placeholder="Email" className="appearance-none bg-transparent border-b-2 w-full text-white mr-3 py-1 px-2 leading-tight focus:border-b-green-500 outline-none" />
                     </formGroup>
                     < formGroup className="h-auto text-xl my-5 w-1/2">
-                        < input type='tel' onChange={(e) => { setNumber(e.target.value) }} name='number' placeholder="Number" className="appearance-none bg-transparent border-b-2 w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none" />
+                        < input type='tel' onChange={(e) => { setNumber(e.target.value) }} name='number' placeholder="Number" className="appearance-none bg-transparent border-b-2 w-full text-white mr-3 py-1 px-2 leading-tight focus:border-b-green-500 outline-none" />
                     </formGroup>
                 </div>
                 < formGroup className="text-xl my-10 w-full flex justify-center" >
-                    < textarea type='textArea' onChange={(e) => { setMessage(e.target.value) }} name='message' rows={6} placeholder="Message" className="w-1/2 p-2.5 text-sm h-auto text-white bg-transparent border border-gray-300 " />
+                    < textarea type='textArea' onChange={(e) => { setMessage(e.target.value) }} name='message' rows={6} placeholder="Message" className="w-1/2 p-2.5 text-sm h-auto text-white bg-transparent border border-gray-300 focus:border-green-500 outline-none" />
                 </formGroup>
                 <button type="submit" className="bg-green-500 text-zinc-900 w-fit px-4 py-2 text-lg" onClick={(e) => { handleSubmit(e) }}>Submit</button>
             </form >
