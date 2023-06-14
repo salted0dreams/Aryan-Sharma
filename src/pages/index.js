@@ -16,7 +16,8 @@ export default function Home() {
       <IntroHeader />
       <About />
       <TechStack />
-      <Contact />
+      {/* <Contact /> */}
+      <Work />
     </div>
   );
 }
