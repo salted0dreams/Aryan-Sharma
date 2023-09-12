@@ -8,7 +8,7 @@ export default function IntroHeader() {
                 <div className="mx-6 my-3 flex flex-col justify-center"> 
                     <p className='text-4xl font-bold mb-6'>Hi, I'm <br /> Aryan Sharma <br/> Full-stack Web Developer</p>
                     {/* <p className='text-xl mb-6'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.<br/> Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p> */}
-                    <Link href='../../cv.pdf' target="_blank" className=' bg-green-500 text-zinc-900 w-fit px-4 py-2 text-lg'>Download CV</Link>
+                    <Link href='../../Aryan-Sharma-main.pdf' target="_blank" className=' bg-green-500 text-zinc-900 w-fit px-4 py-2 text-lg'>Download CV</Link>
                 </div>
                 
                 <img src="../../pngs/pfp.jpg" 
